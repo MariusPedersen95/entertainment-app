@@ -1,0 +1,91 @@
+* {
+  font-size: 16px;
+  font-size: var(--default-font-size);
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+
+  line-height: 1.618;
+  line-height: var(--default-line-height);
+  font-family: 'Outfit', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 19px;
+  font-weight: 300;
+  @include media-breakpoint-up(lg) {
+    font-size: 0.938rem;
+  }
+  &.small {
+    font-size: 0.813rem;
+  }
+}
+
+li {
+}
+
+h1 {
+  font-size: 1.85rem;
+  font-weight: 300;
+  @include media-breakpoint-up(md) {
+    font-size: 3rem;
+  }
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  @include media-breakpoint-up(md) {
+    font-size: 1.5rem;
+  }
+}
+h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  @include media-breakpoint-up(md) {
+    font-size: 1.5rem;
+  }
+}
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  @include media-breakpoint-up(lg) {
+    font-size: 1.125rem;
+  }
+}
+
+span {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-alignment {
+  &-center {
+    text-align: center;
+  }
+  &-left {
+    text-align: left;
+  }
+  &-right {
+    text-align: right;
+  }
+}
+
+a {
+  color: inherit;
+}

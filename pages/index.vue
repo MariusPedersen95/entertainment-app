@@ -1,14 +1,12 @@
 <template>
   <div>
-      Search for movies or TV series
-  
-      Trending
+    Search for movies or TV series Trending
 
-      <!-- Display trending shows -->
+    <!-- Display trending shows -->
 
-      Recommended for you
+    Recommended for you
 
-      <!-- Display recommended shows -->
+    <!-- Display recommended shows -->
   </div>
 </template>
 

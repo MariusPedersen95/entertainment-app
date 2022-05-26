@@ -1,8 +1,14 @@
+$dark-blue: #10141e;
+$red: #fc4747;
+$greyish-blue: #979797;
+$pure-white: #ffffff;
+$semi-dark-blue: #161d2f;
+
 $grid-breakpoints: (
   xs: 0,
   small-mobile: 400px,
   sm: 576px,
   md: 769px,
   lg: 992px,
-  xl: 1200px
+  xl: 1200px,
 ) !default;

@@ -23,13 +23,13 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/scss/import.scss'],
-  // vite: {
-  //   css: {
-  //     preprocessorOptions: {
-  //       scss: {
-  //         additionalData: `@import "@/assets/scss/import";`,
-  //       },
-  //     },
-  //   },
-  // },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@import "@/assets/scss/core/config";`,
+        },
+      },
+    },
+  },
 })
